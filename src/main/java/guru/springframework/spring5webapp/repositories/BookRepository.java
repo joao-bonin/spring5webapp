@@ -5,6 +5,5 @@ import org.springframework.data.repository.CrudRepository;
 
 import javax.persistence.Entity;
 
-@Entity
 public interface BookRepository extends CrudRepository<Book, Long> {
 }
